@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon Pokedex API Project</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        Dan's
+        <img class="poke-logo" src="./images/pokemon logo.png" alt="" /> API
+        Project
+      </div>
+    </header>
+    <main class="row poke-row">
+      <div class="card pokedex-card" style="width: 18rem">
+        <div class="row pokedex-header mt-2">
+          <div class="col pokedex-camera">
+            <div class="camera"></div>
+            <div class="red-light"></div>
+            <div class="yellow-light"></div>
+            <div class="green-light"></div>
+          </div>
+          <div class="col pokedex-title">Pokedex</div>
+        </div>
+        <div class="img-container card-img">
+          <img
+            src="./images/question mark.png"
+            class="pokedex-img card-img-top"
+            alt="..."
+          />
+        </div>
+        <ul class="pokedex-lg list-group list-group-flush">
+          <li class="pokedex-li list-group-item">Name:</li>
+          <li class="pokedex-li list-group-item">Type:</li>
+          <div class="stats-row-group">
+            <li class="pokedex-li list-group-item stats-col-item">Ht:</li>
+            <li class="pokedex-li list-group-item stats-col-item">Wt:</li>
+          </div>
+          <div class="stats-row-group">
+            <li class="pokedex-li list-group-item stats-col-item">HP:</li>
+            <li class="pokedex-li list-group-item stats-col-item">Speed:</li>
+          </div>
+          <div class="stats-row-group">
+            <li class="pokedex-li list-group-item stats-col-item">Attack:</li>
+            <li class="pokedex-li list-group-item stats-col-item">Defense:</li>
+          </div>
+          <div class="stats-row-group">
+            <li class="pokedex-li list-group-item stats-col-item">
+              Special-Attack:
+            </li>
+            <li class="pokedex-li list-group-item stats-col-item">
+              Special-Defense:
+            </li>
+          </div>
+        </ul>
+        <div class="row card-body pokedex-footer">
+          <div class="col">
+            <img class="d-pad" src="./images/Directional Arrows.png" alt="" />
+          </div>
+          <div class="col input-col">
+            <input
+              type="search"
+              name="searchName"
+              id="pokemonName"
+              placeholder="Search by Name"
+            />
+          </div>
+          <div class="col">
+            <button class="search-button">
+              <img
+                id="search"
+                class="pokeball-img rotate"
+                src="./images/pokeball.png"
+                alt=""
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="card pokemon-card" style="width: 18rem"></div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

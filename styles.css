@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    padding: 0;    
+    background-image: url("./images/Pokemon Background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    align-items:center;
+    justify-content: space-around;
+    padding: 3rem 0;
+}
+
+.poke-row {
+    margin-right: 0 !important;
+}
+
+/* //HEADER */
+
+header {
+    height:50px;
+    margin-top: 4%;
+    font-size:60px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+
+.poke-logo {
+    width:30%;
+    height:auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* POKEDEX CARD */
+
+.pokedex-card {
+    background-color: red !important;
+    border: 4px rgb(71, 71, 71) solid !important;
+    border-radius: 2%;
+    font-weight: 800;
+    font-size: larger;    
+    width:40% !important;
+}
+
+.pokemon-header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pokedex-camera {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+    margin-left: 2%;
+    gap:calc(3%);
+}
+
+.pokedex-title {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:center;
+    font-size: larger;
+    letter-spacing:.2rem;
+}
+
+.camera {
+    border: 3px darkblue solid;
+    border-radius: 50%;
+    background-color:skyblue;
+    height: 100%;
+    width: 18%;
+}
+
+.red-light {
+    border: 3px darkblue solid;
+    border-radius: 50%;
+    background-color:red;
+    height: 50%;
+    width: 9%;
+    margin-top: 2%;
+}
+
+.yellow-light {
+    border: 3px darkblue solid;
+    border-radius: 50%;
+    background-color:yellow;
+    height: 50%;
+    width: 9%;
+    margin-top: 2%;
+}
+
+.green-light {
+    border: 3px darkblue solid;
+    border-radius: 50%;
+    background-color:green;
+    height: 50%;
+    width: 9%;
+    margin-top: 2%;
+}
+
+.img-container {
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    padding: 4%;
+    min-width: 380px;
+    min-height: 380px;
+    height: auto;
+    width: 100%;
+    background-image: url("./images/Whos That Pokemon.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    border: 4px rgb(71, 71, 71) solid !important;
+    border-radius: 1%;
+}
+
+.pokedex-img {
+    width: 100%;
+    height: auto;
+}
+
+.pokedex-title {
+    text-align: left;
+}
+
+.pokedex-lg {
+    border: 4px rgb(71, 71, 71) solid !important;
+    border-radius: 2% !important;
+    font-size: 85%;
+    margin-top: 3%;
+}
+
+.stats-row-group {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: l;
+    width: 100%;
+    background-color: white;
+}
+
+.stats-col-item {
+    display: flex;
+    flex-wrap: nowrap;
+    border: none !important;
+    border-bottom: 1px #dee2e6 solid !important;
+    width: 50%;
+}
+
+.pokedex-footer {
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-between !important;
+    align-items: center;
+    width: 100%;
+    margin: 0 !important;
+    padding: 2% 0 2% 0 !important;
+}
+
+.d-pad {
+    width:100%;
+}
+
+#pokemonName {
+    text-align: center;
+}
+
+.pokeball-img {
+    width: 110%;
+}
+
+.search-button {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.rotate-reset {
+    transform: rotate(0deg);
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
+}
+
+.rotate {
+    transform: rotate(-1080deg);
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
+}
+
+/* POKEMON CARD */
+
+.pokemon-card {
+    background-color: transparent !important;
+    border: none !important;
+    width:40% !important;
+}
+
+.pokemon-title {
+    font-size: 50px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
